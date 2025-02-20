@@ -1,0 +1,13 @@
+The solution involves correcting the syntax and using appropriate spacing within the `calc()` function:
+
+```css
+.element {
+  width: calc(100px + 20px); /* Corrected spacing */
+}
+
+.anotherElement {
+  height: calc(100% - 50px); /*Correct use of subtraction with different units*/
+}
+```
+
+To avoid mixing data types, always ensure you're performing calculations on numbers with compatible units.  Avoid adding strings directly into a numerical `calc()` expression.
